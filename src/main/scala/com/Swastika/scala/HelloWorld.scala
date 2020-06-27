@@ -1,5 +1,9 @@
 package com.Swastika.scala
 
-object HelloWorld extends App {
-  println("Hello World!")
+object HelloWorld {
+
+  def display(): Unit = {
+    println("Hello World!")
+  }
+
 }
